@@ -1,0 +1,40 @@
+[submodule "src/libbitcoin-server"]
+	path = src/libbitcoin-server
+	url = https://github.com/PabloCastellano/libbitcoin-server.git
+	branch = debian
+[submodule "src/czmq"]
+	path = src/czmq
+	url = https://github.com/PabloCastellano/czmq.git
+	branch = debian
+[submodule "src/czmqpp"]
+	path = src/czmqpp
+	url = https://github.com/PabloCastellano/czmqpp.git
+	branch = debian
+[submodule "src/libbitcoin"]
+	path = src/libbitcoin
+	url = https://github.com/PabloCastellano/libbitcoin.git
+	branch = debian
+[submodule "src/libbitcoin-blockchain"]
+	path = src/libbitcoin-blockchain
+	url = https://github.com/PabloCastellano/libbitcoin-blockchain.git
+	branch = debian
+[submodule "src/libbitcoin-client"]
+	path = src/libbitcoin-client
+	url = https://github.com/PabloCastellano/libbitcoin-client.git
+	branch = debian
+[submodule "src/libbitcoin-consensus"]
+	path = src/libbitcoin-consensus
+	url = https://github.com/PabloCastellano/libbitcoin-consensus.git
+	branch = debian
+[submodule "src/libbitcoin-explorer"]
+	path = src/libbitcoin-explorer
+	url = https://github.com/PabloCastellano/libbitcoin-explorer.git
+	branch = debian
+[submodule "src/libbitcoin-node"]
+	path = src/libbitcoin-node
+	url = https://github.com/PabloCastellano/libbitcoin-node.git
+	branch = debian
+[submodule "src/secp256k1"]
+	path = src/secp256k1
+	url = https://github.com/PabloCastellano/secp256k1.git
+	branch = debian
