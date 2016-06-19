@@ -4,8 +4,10 @@
 # Tested on Debian 8.5 (Jessie)
 #
 
-export OUTPUT_DIR=$PWD/packages/debian_jessie
-export PACKAGES_DIR=$PWD/src
+export SIGN_KEYID="" # Empty will leave packages unsigned
+export RELEASE_NAME="debian_jessie"
+export OUTPUT_DIR=$PWD/packages/$RELEASE_NAME
+export PACKAGES_DIR=$PWD/src/$RELEASE_NAME
 cd $PACKAGES_DIR
 
 apt-get install sudo
@@ -63,4 +65,6 @@ cd $PACKAGES_DIR
 mkdir -p $OUTPUT_DIR
 mv *.deb *.xz *.dsc *.changes $OUTPUT_DIR
 
-#debsign *.changes -k463F919C
+if ! [ "x$SIGN_KEYID" = "x" ]; then
+    debsign *.changes -k$SIGN_KEYID
+fi
