@@ -8,6 +8,8 @@ For more information see [https://wiki.unsystem.net/en/index.php/Libbitcoin/Repo
 Supported versions
 ==================
 
+The following distributions are known to work:
+
 - Debian 8.5 (Jessie)
 - Ubuntu 16.04 (Xenial)
 
