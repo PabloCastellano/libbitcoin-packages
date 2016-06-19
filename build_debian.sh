@@ -1,10 +1,10 @@
 #!/bin/sh
 #
 # libbitcoin version 2 Debian packaging script
-# Tested on Debian 8.3
+# Tested on Debian 8.5 (Jessie)
 #
 
-export OUTPUT_DIR=$PWD/packages/debian
+export OUTPUT_DIR=$PWD/packages/debian_jessie
 export PACKAGES_DIR=$PWD/src
 cd $PACKAGES_DIR
 
