@@ -16,6 +16,7 @@ sudo apt-get install -y libgmp-dev # secp256k1
 sudo apt-get install -y libboost1.55-all-dev  # libbitcoin-consensus
 sudo apt-get install -y libsodium-dev libsodium13 # libbitcoin-client, libbitcoin-server
 
+git submodule init
 git submodule update
 
 cd $PACKAGES_DIR/czmq
